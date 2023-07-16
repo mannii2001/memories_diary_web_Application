@@ -1,0 +1,31 @@
+.DetailsDiv{
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center ;
+}
+
+.commentsDiv{
+    /* text-align: center; */
+    padding: 1rem;
+}
+.cmtbtn{
+    font-weight: bold;
+}
+.commentInputDiv{
+    display: flex;
+    padding: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+}
+.commentInput{
+    padding: 0.5rem;
+    border-radius: 15px;
+    width: 350px;
+}
+.cmtbtn:hover{
+        background-color: black;
+        color: yellow;
+}

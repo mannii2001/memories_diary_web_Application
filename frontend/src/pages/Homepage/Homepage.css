@@ -1,0 +1,28 @@
+.heading{
+    padding: 1.5rem;
+    font-family:  'Fasthand', cursive; 
+    text-align: center;
+}
+
+.addbtn{
+        padding: 10px 15px 10px 15px;
+        border: none;
+        border-radius: 20px;
+        background-color: #1f5156;
+        color: #f5b921;
+        font-weight: bolder;
+        font-size: large;
+        cursor: pointer;
+        transition: all 0.5s ease;
+}
+
+.btnDiv{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.addbtn:hover{
+    color: #1f5156;
+    background-color: #f5b921;
+}

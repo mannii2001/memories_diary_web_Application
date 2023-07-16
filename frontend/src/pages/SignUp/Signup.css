@@ -1,0 +1,91 @@
+.navbar1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 3rem;
+}
+.logo{
+    width: 50%;
+    font-family:  'Fasthand', cursive; 
+    font-size: larger;
+}
+
+.navItems{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: large;
+    cursor: pointer;
+}
+
+.formAndTextContainer{
+    display: flex;
+    padding: 3rem;
+    flex-wrap: wrap;
+}
+
+.designerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family:  'Fasthand', cursive; 
+    font-size: larger;
+    color: white;
+    width: 50%;
+}
+.textTwo{
+    display: flex;
+    font-size: x-large;
+    justify-content: flex-end;
+}
+.form{
+    width: 50%;
+    display: flex;
+    
+    justify-content: center;
+}
+/* ======================================================================================== */
+.insideForm{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-family:  'Fasthand', cursive; 
+    align-items: center;
+    font-size: large;
+    border: none;
+    border-radius: 20px;
+    width: 60%;
+    background-color: rgb(255, 255, 255,0.4);
+}
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    
+  }
+  
+  .signup-form input,
+  .signup-form button {
+    margin-bottom: 30px;
+    padding: 13px;
+    width: 330px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .signup-form button {
+    background-color: #00a6b9;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .signup-form button:hover {
+    background-color: #555;
+  }
+  .signIn{
+    cursor: pointer;
+  }

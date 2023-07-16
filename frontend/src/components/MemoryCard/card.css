@@ -1,0 +1,30 @@
+.mainDetailsContainer{
+    padding: 2rem;
+    margin: 0.5rem;
+    border: 2px groove black;
+    border-radius: 15px;
+}
+.memoryHeading{
+    display: flex;
+    margin: 0.5rem;
+    justify-content: space-between;
+}
+
+.descriptionDiv{
+    padding: 5px;
+    text-align: center;
+}
+
+.buttonsDiv{
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.CardButtons{
+    color: white;
+    font-weight: bold;
+}
+.CardButtons:hover{
+    color: black;
+}
